@@ -1,0 +1,18 @@
+{
+  "name": "evaa-engine",
+  "version": "0.4.0",
+  "description": "EVAA event-camera processing engine",
+  "type": "module",
+  "main": "index.js",
+  "exports": "./index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "h5wasm": "^0.10.3",
+    "hyparquet": "^1.31.3",
+    "hyparquet-writer": "^0.16.10",
+    "multer": "^2.0.2"
+  }
+}

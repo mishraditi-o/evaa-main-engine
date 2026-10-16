@@ -1,0 +1,11 @@
+node_modules/
+.env
+.DS_Store
+test/events.csv
+test/sample.mat      
+test/test-csv.js     
+test/test-npy.js
+test/sample.csv      
+test/sample.npy      
+test/test-mat.js     
+test/test_events.txt

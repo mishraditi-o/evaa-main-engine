@@ -14,7 +14,10 @@ const upload = multer({
   dest: path.join(
     os.tmpdir(),
     'evaa-upload'
-  )
+  ),
+  limits: {
+    fileSize: 15_000_000_000 // 15 GB
+  }
 });
 
 /*
